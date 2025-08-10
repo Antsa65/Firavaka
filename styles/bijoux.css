@@ -7,7 +7,7 @@
     background-color: rgb(240, 240, 240);
 }
 
-.en-vogue-title {
+.meilleures-ventes-title {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -85,7 +85,7 @@
 }
 
 @media(max-width: 899px) {
-    .en-vogue-title {
+    .meilleures-ventes-title {
         font-family: "Montserrat", sans-serif;
         font-size: 24px;
         font-weight: 500;
@@ -136,7 +136,7 @@
 }
 
 @media(min-width: 900px) and (max-width: 1300px) {
-    .en-vogue-title {
+    .meilleures-ventes-title {
         font-family: "Montserrat", sans-serif;
         font-size: 28px;
         font-weight: 500;
