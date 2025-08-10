@@ -1,0 +1,28 @@
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.header img {
+    width: 24px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.firavaka-logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left-side {
+    margin-left: 200px;
+}
+
+.right-side {
+    margin-right: 200px;
+}
