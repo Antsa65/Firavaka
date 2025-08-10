@@ -4,13 +4,22 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.en-vogue-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
 }
 
 .jewelry {
-    background-color: rgb(240, 240, 240);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    place-content: center;
 }
 
 .jewelry-container  {
@@ -22,14 +31,16 @@
 }
 
 .jewelry-img {
-    width: 332px;
-    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .title {    
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .material {
@@ -43,4 +54,140 @@
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 12px;
+}
+
+.jewelry-container:hover {
+    cursor: pointer;
+    .title {
+        text-decoration: underline;
+    }
+
+    .jewelry-img {
+
+    }
+}
+
+.voir-plus {
+    display: flex;
+    justify-content: center;
+}
+
+.voir-plus-btn {
+    border: 1px solid rgb(83, 83, 83);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 24px;
+    margin: 12px;
+    background-color: white;
+    
+}
+
+@media(max-width: 899px) {
+    .en-vogue-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        padding: 14px;
+    }
+    
+    .jewelry {
+        grid-template-columns: repeat(2, auto);
+    }
+    
+    .jewelry-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .title {    
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .material {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(80, 80, 80);
+    }
+
+    .price  {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+
+    .voir-plus-btn {
+        border: 1px solid rgb(83, 83, 83);
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 8px 18px;
+        margin: 12px;
+        background-color: white;
+    }
+}
+
+@media(min-width: 900px) and (max-width: 1300px) {
+    .en-vogue-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        padding: 18px;
+    }
+
+    .jewelry {
+        grid-template-columns: repeat(3, auto);
+    }
+    
+    .jewelry-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .title {    
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .material {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(80, 80, 80);
+    }
+
+    .price  {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+
+    .voir-plus-btn {
+        border: 1px solid rgb(83, 83, 83);
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 8px 18px;
+        margin: 12px;
+        background-color: white;
+    }
+}
+
+@media(min-width: 1300px) and (max-width: 1500px) {
+    .jewelry {
+        grid-template-columns: repeat(3, auto);
+    }
 }
