@@ -9,7 +9,7 @@
 .meilleures-ventes-title {
     background-color: rgb(240, 240, 240);
     font-family: "Montserrat", sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -82,6 +82,12 @@
     padding: 12px 24px;
     margin: 12px;
     background-color: white;
+    transition: font-size 0.1s;
+}
+
+.voir-plus-btn:hover {
+    cursor: pointer;
+    font-size: 17px;
 }
 
 @media(max-width: 899px) {
