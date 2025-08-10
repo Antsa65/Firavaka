@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jewelry {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jewelry-container  {
+    margin: 12px 8px;
+}
+
+.description {
+    padding: 12px 0;
+}
+
+.jewelry-img {
+    width: 332px;
+    object-fit: contain;
+}
+
+.title {    
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.material {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+}
+
+.price  {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
