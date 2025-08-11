@@ -5,12 +5,23 @@
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .header img {
     width: 24px;
     cursor: pointer;
     margin-right: 16px;
+    transition: all 0.1s;
+}
+
+.header img:hover {
+    width: 28px;
+    margin-left: -4px;
+    margin-top: -4px;
 }
 
 .firavaka-logo {

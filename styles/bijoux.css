@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.meilleures-ventes-title {
+.big-title {
     background-color: rgb(240, 240, 240);
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
@@ -65,7 +65,7 @@
     }
     
     .jewelry-img {
-        
+        object-fit: scale-down;
     }
 }
 
@@ -82,12 +82,13 @@
     padding: 12px 24px;
     margin: 12px;
     background-color: white;
-    transition: font-size 0.1s;
+    transition: all 0.1s;
 }
 
 .voir-plus-btn:hover {
+    font-size: 17px; 
+    margin-bottom: 10.5px;
     cursor: pointer;
-    font-size: 17px;
 }
 
 @media(max-width: 899px) {
