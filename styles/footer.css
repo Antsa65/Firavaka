@@ -50,9 +50,14 @@
     transition: all 0.1s;
 }
 
+.newsletter {
+    margin-bottom: 12px;
+}
+
 .social-media-link {
     display: flex;
     justify-content: center;
+    margin-top: 12px;
 }
 
 .copyright  {

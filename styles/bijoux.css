@@ -19,7 +19,7 @@
 .jewelry {
     background-color: rgb(240, 240, 240);
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     place-content: center;
 }
 
@@ -216,11 +216,5 @@
         padding: 8px 18px;
         margin: 12px;
         background-color: white;
-    }
-}
-
-@media(min-width: 1300px) and (max-width: 1500px) {
-    .jewelry {
-        grid-template-columns: repeat(3, auto);
     }
 }
